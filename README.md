@@ -38,18 +38,60 @@ Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
 
+![Screenshot 2024-12-17 112509](https://github.com/user-attachments/assets/558e1e52-7c1e-4db8-8219-e3a4f475e54b)
+
+
 **Procedure**
 
-Write the detailed procedure here
+**Full Adder:**
+1.Open Quartus II and create a new project.
+2.Use schematic design entry to draw the full adder circuit. 
+3.The circuit consists of XOR, AND, and OR gates. 
+4.Compile the design, verify its functionality through simulation. 
+5.Implement the design on the target device and program it.
+
+**Full Subtractor:** 
+1.Follow the same steps as for the full adder. 
+2.Draw the full subtractor circuit using schematic design. 
+3.The circuit includes XOR, AND, OR gates to perform subtraction. 
+4.Compile, simulate, implement, and program the design similarly to the full adder.
+
+
+
 
 **Program:**
 
-/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
+![Screenshot 2024-12-17 112645](https://github.com/user-attachments/assets/a6f955d9-6655-4abc-b90e-541b00b49f2c)
+
+![Screenshot 2024-12-17 112541](https://github.com/user-attachments/assets/728b3446-086e-40e5-93a7-46a47346ef1b)
+
+
+
+
+
+
+/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. 
+
+Developed by:kavibharathi.k
+
+RegisterNumber: 24900829
 */
 
 **RTL Schematic**
 
+![Screenshot 2024-12-17 113925](https://github.com/user-attachments/assets/2202b3ca-c673-4dc7-9ef1-271c19c9338d)
+![image](https://github.com/user-attachments/assets/9f14363c-6d71-4dba-93d5-0f0f4fd74b5d)
+
+
+
+
+
 **Output Timing Waveform**
+![Screenshot 2024-12-17 111449](https://github.com/user-attachments/assets/38ebaf32-b0a4-4f32-9f7b-f1e8796e540e)
+![Screenshot 2024-12-17 112128](https://github.com/user-attachments/assets/7e15c5c6-750c-4140-97b6-467ed9ccbc72)
+
+
+
 
 **Result:**
 
